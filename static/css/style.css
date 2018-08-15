@@ -1,0 +1,45 @@
+body {
+  background: #FFFEF5;
+  margin: 5% 20%;
+}
+
+li {
+  font-size: 21px;
+}
+
+.profile img {
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+.profile ul {
+  margin: 10% 0%;
+}
+
+.works {
+  clear: left; /* 回り込みの解除 */
+}
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  .profile {
+    float: none;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
