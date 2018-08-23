@@ -15,7 +15,7 @@ li {
 }
 
 .profile ul {
-  margin: 10% 0%;
+  margin: 0% 0%;
 }
 
 .works {
@@ -25,12 +25,21 @@ li {
 /* Mobile first queries */
 
 /* mobile */
-@media (max-width: 400px) {}
+@media (max-width: 400px) {
+  li {
+    font-size: 5px;
+  }
+
+}
 
 /* phablet */
 @media (max-width: 550px) {
   li {
     font-size: 15px;
+  }
+
+  h3 {
+    font-size: 23px;
   }
 
   .profile img {
@@ -41,11 +50,30 @@ li {
 }
 
 /* tablet */
-@media (max-width: 750px) {
+@media (max-width: 800px) {
+  li {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .profile img {
+    width: 50%;
+    height: 50%;
+    float: none;
+  }
 }
 
 /* desktop */
-@media (max-width: 1000px) {}
+@media (max-width: 1000px) {
+
+}
 
 /* Desktop HD */
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+  li {
+    font-size: 18px;
+  }
+}
