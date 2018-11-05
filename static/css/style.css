@@ -1,79 +1,50 @@
 body {
   background: #FFFEF5;
   margin: 5% 20%;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'M PLUS 1p', sans-serif;
 }
 
 li {
   font-size: 21px;
 }
 
-.profile img {
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  width: 20%;
+  border-left: 1px solid #e6e4e4;
+  border-bottom: 1px solid #e6e4e4;
+  list-style-type: none!important;
+}
+
+nav ul li a {
+  display: block;
+	width: 100%;
+  padding: 10% 0;
+  text-decoration: none; 
+  text-align: center;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#about img {
   width: 30%;
   height: 30%;
   float: left;
   margin-right: 5%;
 }
 
-.profile ul {
+#about ul {
   margin: 0% 0%;
-}
-
-.works {
-  clear: left; /* 回り込みの解除 */
-}
-
-/* Mobile first queries */
-
-/* mobile */
-@media (max-width: 400px) {
-  li {
-    font-size: 5px;
-  }
-
-}
-
-/* phablet */
-@media (max-width: 550px) {
-  li {
-    font-size: 15px;
-  }
-
-  h3 {
-    font-size: 23px;
-  }
-
-  .profile img {
-    width: 60%;
-    height: 60%;
-    float: none;
-  }
-}
-
-/* tablet */
-@media (max-width: 800px) {
-  li {
-    font-size: 15px;
-  }
-
-  h3 {
-    font-size: 25px;
-  }
-
-  .profile img {
-    width: 50%;
-    height: 50%;
-    float: none;
-  }
-}
-
-/* desktop */
-@media (max-width: 1000px) {
-
-}
-
-/* Desktop HD */
-@media (max-width: 1200px) {
-  li {
-    font-size: 18px;
-  }
 }
