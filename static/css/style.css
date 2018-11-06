@@ -13,6 +13,11 @@ h1 {
   text-align: center;
 }
 
+nav {
+  width: 80%;
+  margin: 0 auto;
+}
+
 nav ul {
   overflow: hidden;
 }
@@ -48,3 +53,48 @@ nav ul li a {
 #about ul {
   margin: 0% 0%;
 }
+
+#socials {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#socials ul {
+  overflow: hidden;
+}
+
+#socials ul li {
+  float: left;
+  width: 20%;
+/*  border-left: 1px solid #e6e4e4;
+  border-bottom: 1px solid #e6e4e4;*/
+  list-style-type: none!important;
+}
+
+#socials ul li a {
+  display: block;
+	width: 100%;
+  padding: 10% 0;
+  text-decoration: none; 
+  text-align: center;
+}
+
+#socials ul li a i {
+  size: 10px;
+}
+
+/* Mobile first queries */
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
