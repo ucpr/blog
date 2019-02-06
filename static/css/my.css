@@ -10,15 +10,61 @@ body {
     height: 80vh;
 }
 
+a { /*クリックしたときの点線を消す*/
+    outline: none;
+}
+
 .box {
     height: 90%;
     background: #2F4052;
     border: 2px solid #2F4052;
     border-radius: 240px 15px 185px 15px / 15px 200px 15px 185px;
     box-shadow: 0px 0px 20px -5px #2f4052; /*(横の位置, 縦の位置, ぼかし, 広がり)*/
-    margin: 7%;
+    margin: 6%;
     /*padding: 20%;*/
 }
+
+/* agenda ****************************************/
+
+.agenda {
+    margin: 7%;
+}
+
+.agenda .wrapper {
+    height: 100%;
+}
+
+.agenda .button {
+    width: 30px;
+    height: 30px;
+    border: 5px solid;
+    border-color: #565656 #565656 transparent transparent;
+    transform: rotate(-45deg);
+    float: left;
+}
+
+.agenda .button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*.agenda .button a:hover { background-color: #247BA0;
+    color:#222222; }*/
+
+.agenda h1 {
+    float: right;
+}
+
+.agenda .wrapper {
+    float: left;
+}
+
+.agenda img {
+    float: right;
+}
+
+/* ***********************************************/
 
 .items {
     margin: 1%;
