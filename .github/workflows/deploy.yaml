@@ -27,5 +27,5 @@ jobs:
         uses: GoogleCloudPlatform/github-actions/upload-cloud-storage@master
         with:
           credentials: ${{ secrets.GCP_SECRETS }}
-          path: "./public/*"
+          path: "./public/"
           destination: "ucpr.dev/"
