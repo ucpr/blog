@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>ucpr</title>
+        <link>https://ucpr.dev/</link>
+        <description>ucpr&#39;s blog</description>
+        <generator>Hugo 0.73.0 https://gohugo.io/</generator>
+        
+            <language>js</language>
+        
+        
+            <managingEditor>contact@ucpr.dev (ucpr)</managingEditor>
+        
+        
+            <webMaster>contact@ucpr.dev (ucpr)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+        
+        <lastBuildDate>Mon, 13 Jul 2020 22:24:11 &#43;0900</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://ucpr.dev/rss.xml" />
+        
+        
+    </channel>
+</rss>
