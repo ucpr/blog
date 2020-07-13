@@ -3,7 +3,7 @@ name: deploy
 on:
   pull_request:
     branches:
-      - mater
+      - master
     types: [closed]
 
 jobs:
