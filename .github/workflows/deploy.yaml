@@ -1,0 +1,33 @@
+name: deploy
+
+on:
+  pull_request:
+    branches:
+      - mater
+    types: [closed]
+
+jobs:
+  deploy:
+    name: check merged
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.73.0"
+
+      - name: Build
+        run: hugo --minify
+
+      - name: deploy GCS
+        uses: GoogleCloudPlatform/github-actions/upload-cloud-storage@master
+        with:
+          credentials: ${{ secrets.GCP_CREDENTIALS }}
+          path: "./public"
+          destination: "ucpr.dev"
