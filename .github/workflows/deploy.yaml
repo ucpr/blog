@@ -27,6 +27,6 @@ jobs:
       - name: deploy GCS
         uses: GoogleCloudPlatform/github-actions/upload-cloud-storage@master
         with:
-          credentials: ${{ secrets.GCP_CREDENTIALS }}
+          credentials: ${{ secrets.GCP_SECRETS }}
           path: "./public"
           destination: "ucpr.dev"
