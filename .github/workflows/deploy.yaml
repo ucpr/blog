@@ -28,4 +28,4 @@ jobs:
         with:
           credentials: ${{ secrets.GCP_SECRETS }}
           path: "./public"
-          destination: "ucpr.dev"
+          destination: "ucpr.dev/"
