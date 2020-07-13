@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="js">
+    <title type="text">ucpr</title>
+    <subtitle type="html">ucpr&#39;s blog</subtitle>
+    <updated>2020-07-13T22:24:11&#43;09:00</updated>
+    <id>https://ucpr.dev/</id>
+    <link rel="alternate" type="text/html" href="https://ucpr.dev/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://ucpr.dev/atom.xml" />
+    <author>
+            <name>ucpr</name>
+            <uri>https://ucpr.dev/</uri>
+            
+                <email>contact@ucpr.dev</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
+    <generator uri="https://gohugo.io/" version="0.73.0">Hugo</generator>
+</feed>
