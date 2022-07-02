@@ -1,6 +1,6 @@
 ---
-title: "about me"
-date: 2022-07-03T04:26:00
+title: My Go Journey
+date: 2022-07-03 04:42:00 JST
 ---
 
 ## about
