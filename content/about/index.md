@@ -1,6 +1,6 @@
 ---
-title: My Go Journey
-date: 2022-07-03 04:42:00 JST
+title: About me
+date: 2022-07-03 04:42:00 +0900 JST
 ---
 
 ## about
