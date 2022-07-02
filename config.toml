@@ -1,4 +1,4 @@
-baseURL = "https://ucpr.dev/"
+baseURL = ""
 title = "ucpr"
 hasCJKLanguage = false
 
