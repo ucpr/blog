@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on ucpr</title>
+    <link>https://ucpr.dev/categories/</link>
+    <description>Recent content in Categories on ucpr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>taichi uchihara</copyright><atom:link href="https://ucpr.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
